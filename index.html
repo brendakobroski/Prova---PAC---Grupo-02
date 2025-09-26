@@ -5,86 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Planetas do Sistema Solar</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
-        }
-
-        body {
-            background-image: url(/img/estrelado.jpg);
-            color: #fff;
-            line-height: 1.6;
-            padding: 2rem;
-            min-height: 100vh;
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 2rem;
-        }
-
-        header h1 {
-            font-size: 2.5rem;
-            color: #ffd700;
-        }
-
-        .planets {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1.5rem;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .planet-card {
-            position: relative;
-            background-color: #1a1a1a;
-            border-radius: 10px;
-            overflow: hidden;
-            text-align: center;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .planet-card:hover {
-            transform: scale(1.05);
-            box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
-        }
-
-        .planet-card img {
-            width: 100%;
-            height: 150px;
-            object-fit: cover;
-        }
-
-        .planet-card h3 {
-            padding: 1rem;
-            color: #ffd700;
-            font-size: 1.2rem;
-        }
-
-        .planet-card a {
-            display: block;
-            text-decoration: none;
-            color: inherit;
-        }
-
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 2rem;
-            }
-
-            .planets {
-                grid-template-columns: 1fr;
-            }
-
-            .planet-card img {
-                height: 120px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="/assets/style.css">
+       <!--  comentario -->
 </head>
 
 <body>
@@ -102,49 +24,49 @@
                 </a>
             </div>
             <div class="planet-card">
-                <a href="venus.html" target="_blank">
+                <a href="/planetas/venus.html" target="_blank">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Venus-real_color.jpg/200px-Venus-real_color.jpg"
                         alt="Vênus">
                     <h3>Vênus</h3>
                 </a>
             </div>
             <div class="planet-card">
-                <a href="terra.html" target="_blank">
+                <a href="/planetas/terra.html" target="_blank">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Blue_Marble_%28remastered%29.jpg/200px-The_Blue_Marble_%28remastered%29.jpg"
                         alt="Terra">
                     <h3>Terra</h3>
                 </a>
             </div>
             <div class="planet-card">
-                <a href="marte.html" target="_blank">
+                <a href="/planetas/marte.html" target="_blank">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/200px-OSIRIS_Mars_true_color.jpg"
                         alt="Marte">
                     <h3>Marte</h3>
                 </a>
             </div>
             <div class="planet-card">
-                <a href="jupiter.html" target="_blank">
+                <a href="/planetas/jupiter.html" target="_blank">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg/200px-Jupiter_and_its_shrunken_Great_Red_Spot.jpg"
                         alt="Júpiter">
                     <h3>Júpiter</h3>
                 </a>
             </div>
             <div class="planet-card">
-                <a href="saturno.html" target="_blank">
+                <a href="/planetas/saturno.html" target="_blank">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/200px-Saturn_during_Equinox.jpg"
                         alt="Saturno">
                     <h3>Saturno</h3>
                 </a>
             </div>
             <div class="planet-card">
-                <a href="urano.html" target="_blank">
+                <a href="/planetas/urano.html" target="_blank">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/200px-Uranus2.jpg"
                         alt="Urano">
                     <h3>Urano</h3>
                 </a>
             </div>
             <div class="planet-card">
-                <a href="netuno.html" target="_blank">
+                <a href="/planetas/netuno.html" target="_blank">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Neptune_Full.jpg/200px-Neptune_Full.jpg"
                         alt="Netuno">
                     <h3>Netuno</h3>
