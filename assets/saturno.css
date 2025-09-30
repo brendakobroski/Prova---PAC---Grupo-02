@@ -1,3 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-image: url(/img/estrelado.jpg);
+    color: #fff;
+    line-height: 1.6;
+    padding: 2rem;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ffd700;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #ddd;
+}
+
+.planet-image {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.planet-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+}
+
+.planet-image .caption {
+    font-size: 0.9rem;
+    color: #ccc;
+    margin-top: 0.5rem;
+}
+
+.curiosities {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.curiosities h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #ffd700;
+    margin-bottom: 1.5rem;
+}
+
+.curiosity-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.curiosity-card {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.curiosity-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+}
+
+.curiosity-card h3 {
+    font-size: 1.2rem;
+    color: #ffd700;
+    margin-bottom: 0.5rem;
+}
+
+.curiosity-card p {
+    font-size: 1rem;
+    color: #ddd;
+}
+
+.back-button {
+    text-align: center;
+    margin-top: 2rem;
+}
+
 .btn {
     display: inline-block;
     padding: 0.8rem 1.5rem;
@@ -11,4 +106,22 @@
 
 .btn:hover {
     background-color: #e6c200;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .curiosities h2 {
+        font-size: 1.5rem;
+    }
+
+    .curiosity-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .planet-image img {
+        max-width: 80%;
+    }
 }
