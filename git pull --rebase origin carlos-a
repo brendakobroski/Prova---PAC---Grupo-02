@@ -1,0 +1,42 @@
+* [33m50c0881[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mcarlos-a[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m Adicionando páginas de Mercúrio e Terra
+* [33m62e7c62[m atualisacao satuno
+*   [33mf01264b[m Merge branch 'main' of https://github.com/brendakobroski/Prova---PAC---Grupo-02
+[32m|[m[33m\[m  
+[32m|[m *   [33m1e4d0d6[m Merge pull request #4 from brendakobroski/carlos-a
+[32m|[m [34m|[m[35m\[m  
+* [34m|[m [35m|[m [33m69bdb33[m mudanca saturno
+[34m|[m[34m/[m [35m/[m  
+[34m|[m [35m|[m * [33m35adea5[m[33m ([m[1;31morigin/carlos-a[m[33m)[m Add files via upload
+[34m|[m [35m|[m * [33m0b1d790[m Delete integrantes directory
+[34m|[m [35m|[m * [33mc060bfc[m Delete planetas directory
+[34m|[m [35m|[m * [33m1b27688[m Delete assets directory
+[34m|[m [35m|[m * [33md1ffc6c[m Delete img directory
+[34m|[m [35m|[m * [33me9d4134[m Delete README.md
+[34m|[m [35m|[m * [33m6ac0f61[m Delete index.html
+[34m|[m [35m|[m[35m/[m  
+[34m|[m * [33me115cb2[m Add files via upload
+[34m|[m[34m/[m  
+*   [33m76a9e12[m Merge branch 'main' of https://github.com/brendakobroski/Prova---PAC---Grupo-02
+[1;31m|[m[1;32m\[m  
+[1;31m|[m * [33m7755eb8[m adicionar gifs no index
+[1;31m|[m * [33m5a1bca0[m alterações em jupiter
+* [1;32m|[m [33md69a99f[m mudanca saturno
+[1;32m|[m[1;32m/[m  
+* [33m657c84d[m auterasoes no index
+* [33mc2e0961[m auterasoes no index
+* [33m12432ff[m Update README.md
+*   [33m526e795[m Merge pull request #3 from brendakobroski/tiago
+[1;33m|[m[1;34m\[m  
+* [1;34m\[m   [33m0b149da[m Merge pull request #2 from brendakobroski/tiago
+[1;35m|[m[1;36m\[m [1;34m\[m  
+[1;35m|[m [1;36m|[m [1;34m|[m * [33m25cab7d[m[33m ([m[1;31morigin/tiago[m[33m)[m Add files via upload
+[1;35m|[m [1;36m|[m [1;34m|[m[1;34m/[m  
+[1;35m|[m [1;36m|[m * [33m6280bea[m Urano
+[1;35m|[m [1;36m|[m[1;36m/[m  
+[1;35m|[m * [33m6894ff2[m Netuno
+[1;35m|[m[1;35m/[m  
+*   [33me818292[m Merge pull request #1 from brendakobroski/planetas
+[32m|[m[33m\[m  
+[32m|[m * [33m5b7ee13[m[33m ([m[1;31morigin/planetas[m[33m)[m Adicionar páginas dos planetas e ajustes de estilo
+[32m|[m[32m/[m  
+* [33m1d387d1[m Primeiro commit
