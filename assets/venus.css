@@ -132,16 +132,6 @@ header p {
     }
 }
 
-.frozen{    
-    position:absolute;
-    left: 0;
-    top: 0;
-    right: 0;    
-    bottom: 0;
-    pointer-events: none; 
-    animation: ceu 5s linear forwards;
-    z-index: 9999;
-}
 
 .floco_um{    
     position:fixed;    
