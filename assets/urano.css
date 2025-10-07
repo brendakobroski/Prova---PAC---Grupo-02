@@ -178,3 +178,51 @@ header p {
     margin-left: 1rem;
 
 }
+
+
+.sonda_um{    
+    position:absolute;  
+    width: 0.4vw; 
+    height: 0.4vw;  
+    background-color: white;  
+    animation: sonda_um 5s linear forwards infinite;
+    z-index: 9999;
+}
+
+.sonda_dois{    
+    position:absolute;  
+    width: 0.4vw; 
+    height: 0.4vw;  
+    background-color: white;  
+    animation: sonda_dois 3s linear forwards infinite;
+    z-index: 9999;
+}
+
+
+@keyframes sonda_um {
+    0% {
+        left: 15vw;
+        bottom:0; 
+        
+    }  
+
+    100% {
+        left: 15vw;
+        bottom:300vh;
+        
+    }
+}
+
+@keyframes sonda_dois {
+    0% {
+        left: 85vw;
+        bottom:300vh; 
+        
+    }  
+
+    100% {
+        left: 85vw;
+        bottom:0;
+        
+    }
+}
